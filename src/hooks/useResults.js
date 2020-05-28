@@ -14,7 +14,7 @@ export default () => {
           location: "san jose",
         },
       });
-      console.log("searched");
+
       setResults(resp.data.businesses);
     } catch (err) {
       console.log(err);
@@ -26,5 +26,5 @@ export default () => {
     searchApi("jollof");
   }, []);
 
-  return [errMsg, searchApi, results];
+  return [searchApi, errMsg, results];
 };

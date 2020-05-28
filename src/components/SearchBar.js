@@ -22,6 +22,7 @@ const SearchBar = ({ searchText, onSearchChange, onSearchEnd }) => {
 const styles = StyleSheet.create({
   backgroundStyle: {
     marginTop: 15,
+    marginBottom: 15,
     backgroundColor: "#ddd",
     height: 50,
     borderRadius: 5,

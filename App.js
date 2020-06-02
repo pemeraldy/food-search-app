@@ -11,7 +11,7 @@ const Stack = createStackNavigator();
 const App = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Restaurant Profile">
+      <Stack.Navigator initialRouteName="Search Screen">
         <Stack.Screen name="Search Screen" component={SearchScreen} />
         <Stack.Screen name="Restaurant Profile" component={ResultShowScreen} />
       </Stack.Navigator>
